@@ -37,11 +37,13 @@ Find and return any fixed point if it exists, otherwise return `False`.
 - Return the index if found, else return `False`.
 
 **Code Snippet:**
+
 ```python
 for i in range(len(arr)):
     if arr[i] == i:
         return i
-return False
+return False 
+
 
 2. Optimized Approach – Binary Search (O(log N))
 
