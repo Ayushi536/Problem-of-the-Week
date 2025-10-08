@@ -38,7 +38,6 @@ Find and return any fixed point if it exists, otherwise return `False`.
 
 **Code Snippet:**
 
-```python
 for i in range(len(arr)):
     if arr[i] == i:
         return i
